@@ -117,7 +117,7 @@ img {
     margin-right: auto;
 }
 
-.primary-button {
+.button {
     display: inline-block;
     margin-top: 30px;
     border-radius: 4px;
@@ -141,15 +141,15 @@ img {
 
 
 
-.primary-button:hover,
-.primary-button:focus {
+.button:hover,
+.button:focus {
     color: var(-primary-background-color);
     background-color: var(--button-background-color);
 
 }
 
 
-.primary-button--filtering {
+.button--filtering {
    
     margin: 0px;
     padding: 6px 22px;
@@ -162,8 +162,8 @@ img {
 } 
 
 
-.primary-button--filtering:hover,
-.primary-button--filtering:focus {
+.button--filtering:hover,
+.button--filtering:focus {
     color: var(--primary-background-color);
     background-color: var(--accent-color);
 }
@@ -1108,7 +1108,7 @@ img {
 
 
 
-.primary-button--submit {
+.button--submit {
     display: block;
     width: 200px;
     height: 50px;
@@ -1168,7 +1168,7 @@ img {
 }
 
 
-.primary-button--subscribe {
+.button--subscribe {
 
     width: 200px;
     height: 50px;
@@ -1182,13 +1182,13 @@ img {
     margin-top: 20px;
 }
 
-.primary-button__svg {
+.button__svg {
     position: absolute;
     top: 13px;
     right: 28px;
 }
 
-.primary-button__title {
+.button__title {
     display: inline-block;
     position: absolute;
     left: 28px;
